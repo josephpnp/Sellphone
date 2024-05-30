@@ -1,0 +1,76 @@
+:root{
+    --amarillo:#151020;
+    --azul:#30cef8;
+}
+.bg-primary{
+    background-color: #30cef8 !important;
+    font-size: 9px;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid #30cef8;
+}
+
+.nav-link{
+    border-radius: 16px;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    color: #30cef8 !important;
+}
+
+@media (min-width:992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+#header{
+    background: url(../src/—Slidesdocs—teléfono\ celular\ con\ efecto\ de_60cefada3f.jpg) top/cover no-repeat ; 
+}
+
+.btn:not(.nav-btns button){
+    background-color: #151020;
+    color: #30cef8 !important;
+    border: 2px solid #2f3477;
+    transition: 0.5s;
+    padding: 10px 28px;
+    border-radius: 25px;
+}
+
+.btn:not(.nav-btns button):hover{
+    transition: 0.5s;
+    color: #151020 !important;
+    background-color: #30cef8 ;
+}
+
+/*collection*/
+.tittle h2::before{
+    position: relative;
+    content: ".";
+    color:#30cef8;
+    width: 4px;
+    height: 50px;
+    background-color: #30cef8;
+    left: -20px;
+}
+
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: rgb(251, 255, 0);
+}
+
+.span.text-primary{
+    background-color: var(--azul);
+    color: var(--azul) !important;
+}
+
+#logo{
+    width: 50px !important;
+    height: 50px !important;
+}
